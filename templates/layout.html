@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ваши бытовые товары для дома</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в наш магазин бытовых товаров для дома</h1>
+        <p>У нас вы найдете все, что вам нужно для комфортной жизни в доме.</p>
+    </header>
+    <nav>
+        <!-- Здесь может быть навигация, ссылки на разделы магазина и т.д. -->
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2023 Ваш магазин бытовых товаров для дома</p>
+    </footer>
+</body>
+</html>
