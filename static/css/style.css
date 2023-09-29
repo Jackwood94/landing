@@ -54,7 +54,7 @@ section#products {
 
 .product {
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 0.1vh solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
     width: calc(33.33% - 20px);
