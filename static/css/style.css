@@ -57,7 +57,7 @@ section#products {
     border: 0.1vh solid #ddd;
     padding: 2vh;
     margin-bottom: 2vh;
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 2vh);
 }
 
 .product img {
